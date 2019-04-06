@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+header {
+	margin: 0;
+	background-color: #fff;
+	padding: 20px;
+}
+
+body  {
+	margin: 0;
+	font-family: 'Roboto',sans-serif;
+	background-color: #1dabdd;
+	background-image: url('D:/HTML/SecondAss/Landing_Page/bird.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	min-width: 800px;
+	color: #fff;	
+}
+footer {
+	padding: 20px;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #0d7d9b;
+}
+footer a{
+	padding: 20px;
+	color: #fff;
+	text-decoration: none;
+}
+section ul li {
+	list-style-type: none;
+	padding: 10px;
+	line-height: 3.4;
+}
+section a {
+	margin-left: 50px;
+	padding: 5px 70px;
+	border: 1px solid white;
+	border-radius: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+section h1{
+	width: 20%;
+	padding: 20px 20px 5px 20px;
+	font-weight: 200;
+	margin-left: 40px;
+}
+section ul li img{
+	vertical-align: middle;
+	padding: 10px;
+}
+
+section h2 {
+	width: 20%;
+	padding: 5px;
+	margin-left: 50px;
+}
