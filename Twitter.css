@@ -10,7 +10,7 @@ body  {
 	margin: 0;
 	font-family: 'Roboto',sans-serif;
 	background-color: #1dabdd;
-	background-image: url('D:/HTML/SecondAss/Landing_Page/bird.png');
+	background-image: url('Landing_Page_Mockups/bird.png');
 	background-repeat: no-repeat;
 	background-position: right;
 	min-width: 800px;
@@ -58,3 +58,33 @@ section h2 {
 	padding: 5px;
 	margin-left: 50px;
 }
+.main {
+	display: flex;
+}
+.model {
+	margin: auto;
+	margin-top: -300px;
+	padding: 10px;
+	width: 40%;
+	height: auto;
+	background-color: #e7efef;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+}
+.model-content {
+	margin: auto;
+	width: 30%;
+	height: auto;
+	text-align: center;
+}
+form h2 {
+	color: #18adde;
+}
+form input {
+	border-radius: 10px;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+}
+

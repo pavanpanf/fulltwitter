@@ -1,1 +1,7 @@
 https://git.heroku.com/twitterlandingpage.git
+
+https://twitterlandingpage.herokuapp.com/
+
+https://git.heroku.com/aboutmepavan.git
+
+https://aboutmepavan.herokuapp.com/
