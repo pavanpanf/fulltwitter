@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Twitter</title>
 	<link rel="stylesheet" type="text/css" href="Twitter.css">
 </head>
+
 <body>
 	<header>
-		<img src="D:\HTML\SecondAss\TwitterLandingPage\Landing_Page_Mockups\logo.png">
+		<img src="./img/logo.png">
 	</header>
 	<section>
 		<ul>
 			<li>
-				<img src="D:\HTML\SecondAss\TwitterLandingPage\Landing_Page_Mockups\1.png">
+				<img src="./img/1.png">
 				Follow your intrests.
 			</li>
 			<li>
-				<img src="D:\HTML\SecondAss\TwitterLandingPage\Landing_Page_Mockups\2.png">
+				<img src="./img/2.png">
 				Hear what people are talking about.
 			</li>
 			<li>
-				<img src="D:\HTML\SecondAss\TwitterLandingPage\Landing_Page_Mockups\3.png">
+				<img src="./img/3.png">
 				Join the conversation.
 			</li>
 		</ul>
 		<h1>See whats happing in the world right now</h1>
 		<h2>Join twitter today</h2>
-		<a href="">Sign Up</a>
-		<a href="">Login</a>
+		<a href="#" class="signup">Sign Up</a>
+		<a href="#" class="Login">Login</a>
 	</section>
 	<footer>
 		<a href="">About us</a>|
@@ -34,28 +36,36 @@
 		<a href="">Blog</a>|
 		<a href="">Status</a>
 	</footer>
-	<div class="main">
+	<div class="main signupblock" style="display: none">
 		<div class="model">
-			<form class="model-content" >
+			<form class="model-content">
 				<h2>signup to twitter</h2>
-				<input type="text" name="username" placeholder="Enter Username">
-				<input type="email" name="email" placeholder="Enter Email">
-				<input type="password" name="password" placeholder="Enter password">
-				<input type="password" name="password" placeholder="Confirm password">
-				<button type="submit" class="signup">signup</button>
+				<input type="text" id="username" placeholder="Enter Username">
+				<span class="invalid-message" id="invalidusername" style="display: none">Enter Valid UserName</span>
+				<input type="email" id="email" placeholder="Enter Email">
+				<span class="invalid-message" id="invalidemail" style="display: none">Enter Valid email</span>
+				<input type="password" id="password" placeholder="Enter password">
+				<span class="invalid-message" id="invaledpass" style="display: none">Enter Valid password</span>
+				<input type="password" id="confirmpassword" placeholder="Confirm password">
+				<span class="invalid-message" id="invaledconpass" style="display: none">password doesn't match</span>
+				<button type="submit" class="signupButton" onclick="signupButton(event)">signup</button>
+				<a href="#" id="close" onclick="close(event)">X</a>
 			</form>
 		</div>
 	</div>
-	<div class="main">
+	<div class="main loginblock" style="display: none">
 		<div class="model">
-			<form class="model-content" >
+			<form class="model-content">
 				<h2>login</h2>
-				<input type="email" name="email" placeholder="Enter Email">
-				<input type="password" name="password" placeholder="Enter password">
-				<button type="submit" class="Login">Login</button>
+				<input type="email" id="lemail" placeholder="Enter Email">
+				<input type="password" id="lpassword" placeholder="Enter password">
+				<button type="submit" class="loginButton" onclick="loginButton(event)">Login</button>
+				<a href="#" id="close" onclick="close(event)">X</a>
 			</form>
 		</div>
 	</div>
 
 </body>
+<script src="twitter.js"></script>
+
 </html>

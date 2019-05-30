@@ -10,7 +10,7 @@ body  {
 	margin: 0;
 	font-family: 'Roboto',sans-serif;
 	background-color: #1dabdd;
-	background-image: url('Landing_Page_Mockups/bird.png');
+	background-image: url('img/bird.png');
 	background-repeat: no-repeat;
 	background-position: right;
 	min-width: 800px;
@@ -63,7 +63,7 @@ section h2 {
 }
 .model {
 	margin: auto;
-	margin-top: -300px;
+	margin-top: -400px;
 	padding: 10px;
 	width: 40%;
 	height: auto;
@@ -76,7 +76,7 @@ section h2 {
 	margin: auto;
 	width: 30%;
 	height: auto;
-	text-align: center;
+	text-align: start;
 }
 form h2 {
 	color: #18adde;
@@ -88,3 +88,12 @@ form input {
 	margin: 10px;
 }
 
+#close{
+	
+	color:red;
+	text-decoration: none;
+}
+
+.invalid-message{
+	color:red;
+}

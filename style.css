@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto';
+	background-color: #e7efef;
+}
+header {
+	background-color: #fff;
+	
+}
+div.header {
+		display: flex;
+		justify-content: space-between;
+		width: 980px;
+		margin: 0 auto;
+		vertical-align: all;
+}
+div.header1 {
+	display: flex;
+	padding: 10px;
+}
+
+header h2 {
+	text-align: center;
+	margin: auto;
+	margin-left: 20px;
+	font-size: 40px;
+	color: #18adde;
+}
+div.header2 {
+	display: flex;
+	padding: 10px;
+	margin-left: -10px;
+}
+div.header3 {
+	display: flex;
+	padding: 10px;
+}
+div.header3 a {
+	margin: auto;
+	margin-left: 20px;
+	padding: 2px 20px;
+	border: 2px solid #7a797a;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #7a797a;
+}
+
+.main-content {
+	display: flex;
+	width: 980px;
+	margin: 0 auto;
+	vertical-align: all;
+}
+.sidebar1 {
+	width: 40%;
+	margin: 10px;
+}
+aside .sidebar2 {
+	padding: 10px 0px;
+}
+aside .sidebar2 .side1 {
+	padding: 30px 20px;
+	border-radius: 10px;
+	width: 80%;
+	margin: 0 auto;
+	height: 100px;
+	background-color: #7a797a;
+}
+aside .sidebar2 .side2 {
+	position: relative;
+	top: -50px;
+	padding: 0px 20px;
+	display: flex;
+}
+aside .sidebar2 .side2 h2 {
+	margin: auto;
+}
+aside .sidebar3 {
+	display: flex;
+	justify-content: space-around;
+	color: #7a797a;
+}
+aside .sidebar3 p {
+	text-align: center;
+	font-size: 30px;
+	color: #18adde;
+}
+.siderbar {
+	background-color: #fff;
+	border-radius: 30px;
+}
+.Whotofollow .who {
+	font-size: 25px;
+	padding: 15px;
+	font-weight: 15px;
+}
+.Whotofollow span {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+.wrapper {
+	margin-top: 20px;
+}
+.UserName {
+	display: flex;
+}
+.UserName img {
+	padding: 10px;
+}
+.UserName span {
+	padding-top: 10px;
+	vertical-align: top;
+}
+.UserName span strong {
+	padding-top: 10px;
+	vertical-align: top;
+	font-size: 15px;
+	font-weight: 15px;
+}
+.UserName a {
+	text-align: center;
+	vertical-align: middle;
+	margin-right: 20px;
+	text-decoration: none;
+	margin-bottom: 50px;
+	border: solid #18adde;
+	padding: 10px 20px;
+	position: relative;
+	top: 30px;
+	left: 30px;
+	border-radius: 15px;
+	color: #18adde;
+}
+.footer {
+	text-align: center;
+	padding: 10px;
+	color: #7a797a;
+	margin-top: 10px;
+}
+.right-main-content {
+	width: 60%;
+	padding: 10px;
+	margin: 10px;
+}
+.right-wrapper {
+	background-color: #fff;
+	border-radius: 20px;
+	display: flex;
+	flex-direction: row;
+}
+.right-wrapper div
+{
+	align-items: center;
+}
+.right-wrapper #what {
+	width: 90%;
+	background-color: #e7efef;
+	border-radius: 10px;
+	margin: 10px;
+}
+.right-wrapper #what p{
+	padding-left: 40px;
+}
+.right-wrapper div img {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.right-wrapper #img-profile{
+	position: relative;
+	left: -60px;
+}
+.right-wrapper #img-profile img {
+	margin-top: 20px;
+}
+.tweets {
+	background-color: #fff;
+	border-radius: 20px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.tweets-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+}
+.tweets-header #arrow {
+	margin-left: 30px;
+}
+.tweets-header #username {
+	font-size: 20px;
+}
+.tweets-header img {
+	padding: 10px;
+}
+.tweets-body  {
+	margin: 0px;
+	margin-left: 70px;
+}
+.tweets-footer {
+	display: flex;
+	flex-direction: row;
+	margin-left: 50px;
+	align-items: center;
+}
+.tweets-footer .img {
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.tweets-footer .img p {
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+#play-icon {
+	position: relative;
+	top: -180px;
+	right: -200px;
+}
+.block {
+	width: 100%;
+	height: 200px;
+	background-color: #7a797a;
+	border-radius: 10px;
+}
+.editblock {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 70px;
+	background-color: #fff;
+	border-radius: 10px;
+	align-items: center;
+}
+.editblock .editblock-wrappers {
+	width: 40%;
+}
+.editblock .headers {
+	padding: 20px;
+}
+.editblock .headers p{
+	font-size: 20px;
+	color: #7a797a;
+	text-align: center;
+	margin: 10px;
+}
+.editblock a{
+	margin-left: 300px;
+	padding: 2px 20px;
+	border: 2px solid #7a797a;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	color: #7a797a;
+}
+#master-profile {
+	position: relative;
+	top: -100px;
+	left: 250px;
+}
+#sidebar2{
+	background-color: #e7efef;
+}
+#sidebar2 p {
+	margin: 5px;
+	display: inline;
+	padding: 5px;
+}
+#sidebar2 h3 {
+	margin-bottom: 0px;
+}
+#sidebar2 img{
+	position: relative;
+	top: 10px;
+}
+#main-content {
+	position: relative;
+	top: -130px;
+}
+.PhotosandVideos-body {
+	position: relative;
+	left: 5px;
+}
+.PhotosandVideos-body img {
+	padding: 5px;
+}
+
+.photoandvideos
